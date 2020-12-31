@@ -8,7 +8,7 @@ class MyLogicAdapter(LogicAdapter):
         super().__init__(chatbot, **kwargs)
 
     def can_process(self, statement):
-        if statement.text.startswith('dimi'):
+        if statement.text.startswith('ירון'):
             return True
         else:
             return False
@@ -21,8 +21,7 @@ class MyLogicAdapter(LogicAdapter):
         confidence = random.uniform(0, 1)
 
         # For this example, we will just return the input as output
-        print('input_statement',type(input_statement),input_statement)
-        selected_statement = Statement(text='The current temperature is ')
+        selected_statement = Statement(text='כאן הולכת התשובה שלי מתוך AI!!!')
 
         selected_statement.confidence = confidence
 

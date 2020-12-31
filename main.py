@@ -35,6 +35,7 @@ trainer = ChatterBotCorpusTrainer(chatbot)
 
 #trainer.train('chatterbot.corpus.english')
 trainer.train('chatterbot.corpus.hebrew')
+trainer.train('chatterbot.corpus.english')
 
 # Now we can export the data to a file
 #trainer.export_for_training('./my_export.json')
