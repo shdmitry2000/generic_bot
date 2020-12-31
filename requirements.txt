@@ -1,0 +1,12 @@
+spacy
+keras
+tensorflow
+sys
+numpy
+scikit-learn
+scipy
+cython
+nltk
+hdf5
+chatterbot
+chatterbot_corpus
